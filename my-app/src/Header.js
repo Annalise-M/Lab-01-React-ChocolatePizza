@@ -3,9 +3,9 @@ import React from 'react';
 export default class Header extends React.Component {
     render() {
       return (
-        <div>
+        <div className="header">
           <div>Delicious</div>
-          <div>
+          <div className="icons">
             <p> 
               <img src='./assets/fb-icon.png' alt="facebook" />
               <img src='./assets/twit-icon.png' alt="twitter" />
@@ -13,9 +13,7 @@ export default class Header extends React.Component {
               <img src="./assets/insta-icon.png" alt="instagram"/>
               <img src="./assets/flic-icon.png" alt="flicker" />
               <img src="./assets/pint-icon.png" alt="pintrest" />
-            </p>
-            <p>
-              <img src="./assets/rss-icon.png" alt="rss" />
+               <img src="./assets/rss-icon.png" alt="rss" />
               <img src="./assets/mail-icon.png" alt="mail" />
             </p>
   

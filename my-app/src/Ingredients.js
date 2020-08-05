@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Ingredients1 = [
+const ingredients1 = [
   '1 1/2 cups milk',
   '1/2 cup marscarpone',
   '1/2 tsp. Pink Salt',
@@ -8,7 +8,8 @@ const Ingredients1 = [
   '1/2 cup brown sugar',
   '2-4 tbsp water'
 ]
-const Ingredients2 = [
+
+const ingredients2 = [
   '1 1/2 cups heavy cream',
   '1/3 granulated sugar',
   '2 egg yolks',
@@ -17,7 +18,20 @@ const Ingredients2 = [
   '1 cup honey roasted pecans, roughly chopped'
 ]
 
-export default class Ingredients extends React.Component {
+// const FirstIngredientsList extends React.Component {
+//   render() {
+//     return (
+//       <ul className="left-list"> 
+//       {
+//         ingredients1.map((ingredient) => <ingredients1.)
+//       }
+
+//       </ul>
+//     )
+//   }
+// }
+
+export class Ingredients extends React.Component {
     render() {
       return (
         <div className="div-3">
@@ -43,3 +57,5 @@ export default class Ingredients extends React.Component {
       );
     }
   }
+
+  

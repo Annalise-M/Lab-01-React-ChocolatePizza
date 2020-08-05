@@ -50,10 +50,7 @@ export class Ingredients extends React.Component {
             <label><input type="checkbox"/>2 tbsp butter</label>
             <label><input type="checkbox"/>1 cup honey roasted pecans, roughly chopped</label>
           </form>
-              
-              
-          </div>
-          
+        </div>
       );
     }
   }

@@ -5,9 +5,9 @@ export default class Image extends React.Component {
       return (
         <div className="chocolate-pizza">
             <img src="./assets/choco-pizza.png" alt="choco-pizza"/>
-            
         </div>
-        
       );
     }
   }
+
+  

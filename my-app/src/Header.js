@@ -15,6 +15,7 @@ export default class Header extends React.Component {
           <div>Delicious</div>
           <div className="icons">
             <p> 
+              {/* commented out original code - just below is the prop that's currently being worked on */}
               <Links site='facebook' />
               {/* <img src='./assets/fb-icon.png' alt="facebook" /> */}
               <img src='./assets/twit-icon.png' alt="twitter" />
@@ -29,10 +30,10 @@ export default class Header extends React.Component {
           <div>
             <div>
               <img src="./assets/hr-img.png" alt="hr" />
-  
             </div>
           </div>
         </div>
       );
     }
-  }
+}
+

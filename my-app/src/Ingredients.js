@@ -18,31 +18,33 @@ const ingredients2 = [
   '1 cup honey roasted pecans, roughly chopped'
 ]
 
-// const FirstIngredientsList extends React.Component {
-//   render() {
-//     return (
-//       <ul className="left-list"> 
-//       {
-//         ingredients1.map((ingredient) => <ingredients1.)
-//       }
+class FirstIngredientsList extends React.Component {
+  render() {
+    return (
+      <ul className="left-list"> 
+        {
+          <div>{this.props.ingredients1}</div>
+        }
+      </ul>
+    );
+  }
+}
 
-//       </ul>
-//     )
-//   }
-// }
+//need to add a this.props.ingredients1 && this.props.ingredients2
 
 export class Ingredients extends React.Component {
     render() {
       return (
         <div className="div-3">
-          <form className="left-list">
+          <FirstIngredientsList />
+          {/* <form className="left-list">
             <label><input type="checkbox"/>1 1/2 cups milk</label>
             <label><input type="checkbox"/>1/2 cup marscarpone</label>
             <label><input type="checkbox"/>1/2 tsp. Pink Salt</label>
             <label><input type="checkbox"/>1 lb Black Mission Figs</label>
             <label><input type="checkbox"/>1/2 cup brown sugar</label>
             <label><input type="checkbox"/>2-4 tbsp water</label>
-          </form>
+          </form> */}
           <form className="right-list"><label><input type="checkbox"/>1 1/2 cups heavy cream</label>
             <label><input type="checkbox"/>1/3 granulated sugar</label>
             <label><input type="checkbox"/>2 egg yolks</label>

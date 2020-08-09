@@ -1,5 +1,15 @@
 import React from 'react';
 
+class AuthorName extends React.Component {
+  render() {
+    return (
+      <div>
+        {this.props.authorName}
+      </div>
+    )
+  }
+}
+
 
 export default class Footer extends React.Component {
     render() {
@@ -7,7 +17,7 @@ export default class Footer extends React.Component {
         <div>
            <img src="./assets/van-pic.png" alt="lady-pic"/>
             <span>
-            <p>Vanessa Stevenson</p>
+            <AuthorName authorName="Vanessa Stevenson" />
             <p>
               Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
             </p>
@@ -19,4 +29,5 @@ export default class Footer extends React.Component {
         </div>
       )
     }
-  }
+}
+

@@ -15,8 +15,8 @@ export default class Header extends React.Component {
           <div>Delicious</div>
           <div className="icons">
             <p> 
-              {/* commented out original code - just below is the prop that's currently being worked on */}
               <Links site='facebook' />
+              {/* commented out original code - just below is the prop that's currently being worked on */}
               {/* <img src='./assets/fb-icon.png' alt="facebook" /> */}
               <img src='./assets/twit-icon.png' alt="twitter" />
               <img src="./assets/gp-icon.png" alt="google-plus"/>
